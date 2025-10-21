@@ -1,3 +1,4 @@
-module github.com/VariolaMajor/go-blockchain
+module blockchain
 
-go 1.24.9
+go 1.24.1
+
