@@ -1,12 +1,12 @@
 package main
 
 import (
-	"blockchain/proto"
 	"fmt"
+	structure "github.com/VariolaMajor/go-blockchain/pkg/blockchain"
 )
 
 func main() {
-	bc := proto.NewBlockchain()
+	bc := structure.NewBlockchain()
 	bc.AddBlock("Send 1 BTC to Ivan")
 	bc.AddBlock("Send 3 BTC to Ivan")
 
@@ -17,4 +17,3 @@ func main() {
 		fmt.Println()
 	}
 }
-
